@@ -1,6 +1,4 @@
-
-
-file_path = "day1.txt"
+file_path = "day2.txt"
 
 with open(file_path, "r") as f:
     content = f.read()
@@ -9,10 +7,11 @@ with open(file_path, "r") as f:
 #print(text)
 
 def task_1():
-    print(text)
+    pass
 
 def task_2():
     pass
 
 
-print(task_1(), task_2())
+print(task_1())
+print(task_2())
